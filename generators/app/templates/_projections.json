@@ -1,6 +1,6 @@
 {
-        "alternate": "src/{}.js",
     "test/unit/*-spec.js": {
+        "alternate": "src/{}.js",
         "type": "unit"
     },
     "src/*.js": {
