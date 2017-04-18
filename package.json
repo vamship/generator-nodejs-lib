@@ -1,6 +1,6 @@
 {
   "name": "generator-nodejs-lib",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generates a project for node js libraries - mocha for unit tests, grunt for task automation",
   "homepage": "",
   "author": {
