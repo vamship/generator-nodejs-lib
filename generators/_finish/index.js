@@ -1,15 +1,22 @@
 'use strict';
 
-const _yeoman = require('yeoman-generator');
+const Generator = require('yeoman-generator');
 const _chalk = require('chalk');
 
 const _consts = require('../../utils/constants');
 
-module.exports = _yeoman.Base.extend({
+module.exports = class extends Generator {
+    /**
+     * Initializes the generator.
+     */
+    constructor(args, opts) {
+        super(args, opts);
+    }
+
     /**
      * Display completed message with future actions.
      */
-    finish: function() {
+    finish() {
         const grunt = _chalk.green('grunt');
         const gruntTestCommand = _chalk.yellow('test');
         const gruntMonitorCommand = _chalk.yellow('monitor:unit');
@@ -44,4 +51,4 @@ module.exports = _yeoman.Base.extend({
             this.log(line);
         });
     }
-});
+};

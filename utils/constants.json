@@ -1,5 +1,5 @@
 {
     "SEPARATOR": "--------------------------------------------------------------------------------",
-    "GENERATOR_NAME": "nodejs-library",
+    "GENERATOR_NAME": "nodejs-lib",
     "SUB_GEN_FINISH": "_finish"
 }

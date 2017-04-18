@@ -7,7 +7,7 @@
     "test": "grunt test"
   },
   "keywords": [ ],
-  "author": "Vamshi K Ponnapalli <vamshi.ponnapalli@gmail.com>",
+  "author": "<%= authorName %> <<%= authorEmail %>>",
   "license": "MIT",
   "devDependencies": {
     "esformatter-ignore": "^0.1.3",
@@ -22,7 +22,7 @@
     "load-grunt-tasks": "^3.5.2",
     "time-grunt": "^1.4.0",
     "wysknd-lib": "0.0.2"
-  }
+  },
   "dependencies": {
   },
   "repository": {
