@@ -1,0 +1,36 @@
+{
+  "name": "<%= projectName %>",
+  "version": "0.0.1",
+  "description": "<%= projectDescription %>",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "keywords": [ ],
+  "author": "Vamshi K Ponnapalli <vamshi.ponnapalli@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esformatter-ignore": "^0.1.3",
+    "esformatter-remove-trailing-commas": "^1.0.1",
+    "grunt": "^1.0.1",
+    "grunt-bump": "^0.8.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-esformatter": "^1.2.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "load-grunt-tasks": "^3.5.2",
+    "time-grunt": "^1.4.0",
+    "wysknd-lib": "0.0.2"
+  }
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= githubUsername %>/<%= projectName %>.git"
+  },
+  "bugs": {
+    "url": "https://github.com/<%= githubUsername %>/<%= projectName %>/issues"
+  },
+  "homepage": "https://github.com/<%= githubUsername %>/<%= projectName %>#readme"
+}
