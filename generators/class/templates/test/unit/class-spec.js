@@ -23,7 +23,7 @@ describe('<%= className %>', () => {
     });
 
     describe('ctor()', () => {
-        it('should return an object when invoked', () => {
+        it('should return an object with expected methods and properties when invoked', () => {
             const instance = new <%= className %>();
 
             expect(instance).to.be.an('object');
