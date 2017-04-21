@@ -10,6 +10,7 @@ const expect = _chai.expect;
 const _rewire = require('rewire');
 const _testHelper = require('wysknd-test');
 const _testValueProvider = _testHelper.testValueProvider;
+const ObjectMock = _testHelper.ObjectMock;
 let <%= className %> = null;
 
 describe('<%= className %>', () => {
