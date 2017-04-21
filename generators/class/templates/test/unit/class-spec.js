@@ -7,6 +7,7 @@ _chai.use(require('sinon-chai'));
 _chai.use(require('chai-as-promised'));
 const expect = _chai.expect;
 
+const _rewire = require('rewire');
 const _testHelper = require('wysknd-test');
 const _testValueProvider = _testHelper.testValueProvider;
 let <%= className %> = null;
@@ -19,7 +20,7 @@ describe('<%= className %>', () => {
     }
 
     beforeEach(() => {
-        <%= className %> = require('../../src/<%= classFile %>');
+        <%= className %> = _rewire('../../src/<%= classFile %>');
     });
 
     describe('ctor()', () => {
